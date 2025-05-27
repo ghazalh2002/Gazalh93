@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghazala - Front-End Developer & Creative Designer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Ghazala</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#portfolio" class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Hello, I'm <span class="highlight">Ghazala</span>
+                    </h1>
+                    <p class="hero-subtitle">Front-End Developer & Creative Designer</p>
+                    <p class="hero-description">
+                        Transforming ideas into beautiful, functional web experiences. 
+                        From physics to pixels, I bring a unique analytical perspective to creative design.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#portfolio" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="floating-elements">
+                        <div class="floating-circle circle-1"></div>
+                        <div class="floating-circle circle-2"></div>
+                        <div class="floating-circle circle-3"></div>
+                    </div>
+                    <div class="hero-image">
+                        <svg viewBox="0 0 400 400" class="hero-svg">
+                            <defs>
+                                <linearGradient id="heroGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#2563eb;stop-opacity:1" />
+                                    <stop offset="50%" style="stop-color:#8b5cf6;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#10b981;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            <circle cx="200" cy="200" r="150" fill="url(#heroGradient)" opacity="0.8"/>
+                            <circle cx="200" cy="200" r="120" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.6"/>
+                            <circle cx="200" cy="200" r="90" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.4"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">My journey from physics to front-end development</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="about-story">
+                        <h3>My Story</h3>
+                        <p>
+                            My journey began at Hewad School, where I first discovered my love for problem-solving. 
+                            I then pursued physics at Herat University for two years, developing analytical thinking 
+                            and a deep appreciation for how things work.
+                        </p>
+                        <p>
+                            The transition from physics to design happened at Code to Inspire, where I graduated 
+                            in graphics and motion design. This experience opened my eyes to the creative possibilities 
+                            of technology and visual storytelling.
+                        </p>
+                        <p>
+                            Currently, I'm expanding my skills as a front-end developer student at CTI, and I've 
+                            earned certification from the University of California, Berkeley in HTML and CSS. 
+                            I'm passionate about photography and proficient in Microsoft programs.
+                        </p>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">🎨</div>
+                            <h4>Design</h4>
+                            <p>Graphics & Motion Design</p>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">💻</div>
+                            <h4>Development</h4>
+                            <p>HTML, CSS, Front-End</p>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">📸</div>
+                            <h4>Photography</h4>
+                            <p>Visual Storytelling</p>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">⚛️</div>
+                            <h4>Analytics</h4>
+                            <p>Physics Background</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>Hewad School</h4>
+                                <p>Foundation & Discovery</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>Herat University</h4>
+                                <p>Physics Studies</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>Code to Inspire</h4>
+                                <p>Graphics & Motion Design</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>UC Berkeley</h4>
+                                <p>HTML & CSS Certification</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot active"></div>
+                            <div class="timeline-content">
+                                <h4>CTI Student</h4>
+                                <p>Front-End Development</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My Portfolio</h2>
+                <p class="section-subtitle">A showcase of my creative and technical projects</p>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <svg viewBox="0 0 300 200" class="project-svg">
+                            <rect width="300" height="200" fill="#2563eb" opacity="0.1"/>
+                            <circle cx="150" cy="100" r="50" fill="#2563eb" opacity="0.8"/>
+                            <text x="150" y="170" text-anchor="middle" fill="#2563eb" font-size="14">Web Design</text>
+                        </svg>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Responsive Web Layouts</h3>
+                        <p>Modern, mobile-first designs using CSS Grid and Flexbox</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">Responsive</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <svg viewBox="0 0 300 200" class="project-svg">
+                            <rect width="300" height="200" fill="#10b981" opacity="0.1"/>
+                            <polygon points="150,50 200,150 100,150" fill="#10b981" opacity="0.8"/>
+                            <text x="150" y="170" text-anchor="middle" fill="#10b981" font-size="14">Motion Graphics</text>
+                        </svg>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Motion Graphics Projects</h3>
+                        <p>Creative animations and visual storytelling from my CTI studies</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Animation</span>
+                            <span class="tag">Design</span>
+                            <span class="tag">Creative</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <svg viewBox="0 0 300 200" class="project-svg">
+                            <rect width="300" height="200" fill="#8b5cf6" opacity="0.1"/>
+                            <rect x="75" y="75" width="150" height="50" fill="#8b5cf6" opacity="0.8"/>
+                            <text x="150" y="170" text-anchor="middle" fill="#8b5cf6" font-size="14">Photography</text>
+                        </svg>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Photography Portfolio</h3>
+                        <p>Capturing moments and stories through the lens</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Photography</span>
+                            <span class="tag">Visual Arts</span>
+                            <span class="tag">Storytelling</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <svg viewBox="0 0 300 200" class="project-svg">
+                            <rect width="300" height="200" fill="#f59e0b" opacity="0.1"/>
+                            <path d="M100,100 Q150,50 200,100 Q150,150 100,100" fill="#f59e0b" opacity="0.8"/>
+                            <text x="150" y="170" text-anchor="middle" fill="#f59e0b" font-size="14">UI Components</text>
+                        </svg>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Interactive UI Components</h3>
+                        <p>Custom CSS animations and interactive elements</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">CSS</span>
+                            <span class="tag">UI/UX</span>
+                            <span class="tag">Interactive</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Let's Connect</h2>
+                <p class="section-subtitle">Ready to bring your ideas to life</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <p>
+                        I'm always excited to work on new projects and collaborate with 
+                        creative minds. Whether you need a website, have a design challenge, 
+                        or just want to chat about technology and creativity, I'd love to hear from you!
+                    </p>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="contact-icon">📧</div>
+                            <div>
+                                <h4>Email</h4>
+                                <p>ghazala@example.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="contact-icon">💼</div>
+                            <div>
+                                <h4>LinkedIn</h4>
+                                <p>linkedin.com/in/ghazala</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="contact-icon">🐙</div>
+                            <div>
+                                <h4>GitHub</h4>
+                                <p>github.com/ghazala</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form action="#" method="POST">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2024 Ghazala. Designed and built with passion.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#portfolio">Portfolio</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
